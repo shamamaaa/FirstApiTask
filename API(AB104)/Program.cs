@@ -1,4 +1,5 @@
-﻿using API_AB104_.DAL;
+﻿using API_AB104_.Repostories.Implementations;
+using API_AB104_.Repostories.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 
@@ -19,6 +20,7 @@ public class Program
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
+        builder.Services.AddScoped<IRepository, Repository>();
 
         var app = builder.Build();
 

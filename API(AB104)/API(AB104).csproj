@@ -21,10 +21,18 @@
     <None Remove="Controllers\" />
     <None Remove="Entities\" />
     <None Remove="DAL\" />
+    <None Remove="Dtos\" />
+    <None Remove="Repostories\" />
+    <None Remove="Repostories\Implementations\" />
+    <None Remove="Repostories\Interfaces\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
     <Folder Include="Entities\" />
     <Folder Include="DAL\" />
+    <Folder Include="Dtos\" />
+    <Folder Include="Repostories\" />
+    <Folder Include="Repostories\Implementations\" />
+    <Folder Include="Repostories\Interfaces\" />
   </ItemGroup>
 </Project>
