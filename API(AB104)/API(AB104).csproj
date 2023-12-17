@@ -25,6 +25,12 @@
     <None Remove="Repostories\" />
     <None Remove="Repostories\Implementations\" />
     <None Remove="Repostories\Interfaces\" />
+    <None Remove="Entities\Base\" />
+    <None Remove="Services\" />
+    <None Remove="Services\Implementations\" />
+    <None Remove="Services\Interfaces\" />
+    <None Remove="Dtos\Category\" />
+    <None Remove="Dtos\Tag\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
@@ -34,5 +40,11 @@
     <Folder Include="Repostories\" />
     <Folder Include="Repostories\Implementations\" />
     <Folder Include="Repostories\Interfaces\" />
+    <Folder Include="Entities\Base\" />
+    <Folder Include="Services\" />
+    <Folder Include="Services\Implementations\" />
+    <Folder Include="Services\Interfaces\" />
+    <Folder Include="Dtos\Category\" />
+    <Folder Include="Dtos\Tag\" />
   </ItemGroup>
 </Project>

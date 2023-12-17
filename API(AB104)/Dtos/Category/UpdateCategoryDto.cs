@@ -1,7 +1,7 @@
 ﻿using System;
-namespace API_AB104_.Entities
+namespace API_AB104_.Dtos
 {
-	public class Tag:BaseEntity
+	public class UpdateCategoryDto
 	{
         public string Name { get; set; }
     }

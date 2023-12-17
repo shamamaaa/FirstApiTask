@@ -1,32 +1,33 @@
 ﻿<Properties StartupConfiguration="{C2F631EC-EC02-4633-AD0A-7ECF7B33B06A}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="API(AB104)/Controllers/CategoriesController.cs">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.API_228AB104_229 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="API(AB104)/Dtos/Tag/UpdateTagDto.cs">
     <Files>
-      <File FileName="API(AB104)/Repostories/Implementations/Repository.cs" Line="62" Column="2" />
-      <File FileName="API(AB104)/Controllers/CategoriesController.cs" Line="8" Column="29" />
-      <File FileName="API(AB104)/Program.cs" Line="27" Column="48" />
-      <File FileName="API(AB104)/Repostories/Interfaces/IRepository.cs" Line="6" Column="22" />
+      <File FileName="API(AB104)/Controllers/TagsController.cs" Line="48" Column="10" />
+      <File FileName="API(AB104)/Dtos/Tag/UpdateTagDto.cs" Line="6" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="API(AB104)" expanded="True">
-            <Node name="API(AB104)" expanded="True">
+            <Node name="API(AB104)">
               <Node name="Controllers" expanded="True" />
-              <Node name="DAL" expanded="True" />
-              <Node name="Entities" expanded="True" />
-              <Node name="Repostories" expanded="True">
-                <Node name="Implementations" expanded="True" />
-                <Node name="Interfaces" expanded="True" />
+              <Node name="Dtos">
+                <Node name="Category" expanded="True" />
+                <Node name="Tag" expanded="True">
+                  <Node name="UpdateTagDto.cs" selected="True" />
+                </Node>
               </Node>
+              <Node name="Migrations" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Services" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.API_228AB104_229 PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
